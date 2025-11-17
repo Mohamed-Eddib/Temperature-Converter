@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="Icons/favicon.svg">
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="main-div">
+    <h1>Temperature Conversion<br>Program</h1>
+     <div class="icon-container">
+        <i class="fa-solid fa-temperature-half"></i></div>
+     <div class="form-div">
+      <form>
+        <input type="number" class="text-input" id="first_value" placeholder="F°/C°" >
+        <input type="radio" name="convert" id="toFahrenheit"><label>Celsius -> Fahrenheit</label><br>
+        <input type="radio" name="convert" id="toCelsius"><label>Fahrenheit -> Celsius</label>
+        <div class="button-div"><br><button id="Btn">Convert</button></div>
+      </form>
+     </div>
+    <label>Converted Value</label>
+    <label id="converted_value"></label>
+   </div>
+    <script src="https://kit.fontawesome.com/ea747df6ba.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
