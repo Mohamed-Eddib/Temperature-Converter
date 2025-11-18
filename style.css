@@ -66,8 +66,8 @@ label{
     padding:0px 0px;
 }
 button{
-   background-color:darkred;
-   height:35px;
+   background:linear-gradient(-45deg,rgb(40, 151, 247),rgb(255, 115, 115));
+   height:45px;
    width:200px;
    border:solid black;
    font-size: 20px;
@@ -76,9 +76,15 @@ button{
    font-weight:bold;
    border-radius: 15px;
    cursor:pointer;
-
 }
 h1{
     text-align:center;
     font-family:arial;
+}
+button:hover{
+    transition:linear 0.3s;
+    background:linear-gradient(45deg,rgb(40, 151, 247),rgb(255, 115, 115));
+    height:50px;
+    width:210px;
+
 }
